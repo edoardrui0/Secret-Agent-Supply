@@ -1,3 +1,73 @@
 html {
     font-size: 18px;
+    font-family: Helvetica;
 }
+
+#container {
+    width: 960px;
+    margin: auto;
+}
+
+.font {
+    font-weight: bold;
+    font-family: Helvetica;
+    line-height: 2.75rem;
+}
+
+header {
+    height: 2.5rem;
+    background-color: black;
+    color: white;
+    padding: 0.66rem 0;
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+}
+
+header img {
+    height: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+
+/* Classes - In Order of Appearance */
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.sport-bike {
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg');
+    height: 25rem;
+    width: 100%;
+    background-size: cover;
+}
+
+.bike-content {
+    background-color: black;
+    color: white;
+    width: 37.5%;
+    padding: 2rem 3rem;
+    position: relative;
+    top: 9rem;
+}
+
+.bike-content h1 {
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
