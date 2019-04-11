@@ -69,6 +69,10 @@ header img {
     padding: 0.75rem 0;
 }
 
+.menu {
+    display: none;
+}
+
 .products, .contact {
     display: flex;
     justify-content: space-between;
@@ -122,3 +126,26 @@ header img {
     align-items: center;
 }
 
+
+@media only screen and (max-width: 1024px) {
+    .nav-content {
+        display: none;
+    }
+
+    .menu {
+        display: initial;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        padding: 0.75rem 0;
+    }
+
+    .image-width {
+        width: 47%;
+    }
+
+    .products .glasses {
+        display: none;
+    }
+
+}
